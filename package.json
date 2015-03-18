@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-inspector-bridge",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -35,7 +35,10 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "chrome",
+    "extension",
+    "inspector"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
