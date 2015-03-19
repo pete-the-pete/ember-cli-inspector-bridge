@@ -1,6 +1,6 @@
 # Ember-cli-inspector-bridge
 
-An ember addon that allows Chrome extensions to communication with the Ember Inspector.
+An ember addon that allows browser extensions built with Ember to communication with the Ember Inspector.
 
 ***Note***: 
 * At this time, ember-cli-inspector-bridge is for ***CHROME*** only.
