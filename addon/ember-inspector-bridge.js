@@ -19,8 +19,8 @@ export default Ember.Object.extend(Ember.Evented, {
     port.start();
   },
 
-  init: function(emberInspectorId) {
-    this.set('extensionId', emberInspectorId);
+  init: function(data) {
+    this.set('extensionId', data.inspectorID);
 
     window.addEventListener('message', function(event) {
       if (event.data === 'debugger-client') {
