@@ -8,7 +8,7 @@ export default {
   initialize: function() {
     if(config.environment === 'development') {
       Ember.assert('You must specify the inspectorID (from chrome://extensions) for the Ember Inspector', (typeof config.inspectorID === 'string'));
-      return new ChromeExtensionBridge(config.inspectorID);
+      return new ChromeExtensionBridge({inspectorID: config.inspectorID});
     }
   }
 };
